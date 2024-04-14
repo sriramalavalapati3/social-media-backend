@@ -1,0 +1,31 @@
+{
+  "name": "social-media-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sriramalavalapati3/social-media-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sriramalavalapati3/social-media-backend/issues"
+  },
+  "homepage": "https://github.com/sriramalavalapati3/social-media-backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "gitignore": "^0.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.1",
+    "nodemon": "^3.1.0",
+    "redis": "^4.6.13"
+  }
+}
